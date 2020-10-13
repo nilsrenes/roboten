@@ -1,0 +1,14 @@
+{
+  "connect": {
+    "enabled": true
+  },
+  "service": {
+    "name": "user",
+    "id": "user-1",
+    "port": 8080,
+    "connect": {
+      "sidecar_service": {
+      }
+    }
+  }
+}
